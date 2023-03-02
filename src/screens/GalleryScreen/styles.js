@@ -15,6 +15,10 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: hp('8'),
   },
+  centerView1: {
+    alignItems: 'center',
+    marginTop: hp('1'),
+  },
   allPhotos: {
     fontSize: hp('2.5'),
     color: Colors.primaryColorFaded,

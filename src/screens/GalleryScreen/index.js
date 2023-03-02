@@ -35,6 +35,7 @@ const GalleryScreen = ({navigation}) => {
 
 
             <FlatList
+              numOfColumns={3}
               data={categoryFilterData || imageList}
               horizontal
               showsHorizontalScrollIndicator={false}
